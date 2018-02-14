@@ -1,4 +1,32 @@
-h1 {
-  color: red;
-  text-decoration: underline;
+/* Fake Google CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1#logo {
+  height: 95px;
+  width: 269px;
+  background: url('img/google2.png') top left no-repeat;
+  background-size: 100%;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+
+input[type="search"] {
+  width: 510px;
+  padding: 4px;
+  margin: 25px 0 18px;
 }
